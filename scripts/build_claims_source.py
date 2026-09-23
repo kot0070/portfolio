@@ -172,7 +172,10 @@ DO_NOT_CLAIM = {
     ],
 }
 
-ALLOWED_EXTERNAL = {"https://github.com/kot0070"}
+ALLOWED_EXTERNAL = {
+    "https://github.com/kot0070",
+    "https://github.com/kot0070/local-llm-benchmark",
+}
 ASSERTION_POLARITIES = {"assertion"}
 
 
@@ -457,7 +460,8 @@ def build_document(extracted: Extractor) -> dict:
         "evidence_rule": (
             "Each public claim lists the FINAL_PROJECT_FACTS fields that back it. "
             "Selection-backed lines are presentation structure (order, mention-only, interview role) "
-            "and carry fact_lock_fields: []. No claim uses a PRODUCTION maturity label. "
+            "or owner corrections whose data-sources begin with OWNER_NOTE. They carry fact_lock_fields: []. "
+            "No claim uses a PRODUCTION maturity label. "
             "Polarity assertion is an affirmative fact. denial, limitation, caveat, constraint, "
             "and bounded statements are how do_not_claim items are kept off the boast side of the page."
         ),

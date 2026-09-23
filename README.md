@@ -55,4 +55,4 @@ Claims live on elements with `data-claim`. `data-fields` names the fact-lock fie
 - Bruno Electric does not work offline after first load. The service worker was retired.
 - Bruno AC’s service-worker cache docs disagree with the runtime (`bruno-ac-v4` / `bruno-ac-v64` / `bruno-ac-v31`). That is a limitation.
 - UAS Stage-1 is EARLY DEVELOPMENT and mention-only.
-- Subject repositories are private. Bruno demos need redaction. No proprietary catalogs, customer data, or release databases are in this repo.
+- The centerpiece repository [local-llm-benchmark](https://github.com/kot0070/local-llm-benchmark) is public on GitHub. The other six subject repositories named on the page remain private (Bruno apps are also proprietary). Bruno demos need redaction. This page does not publish proprietary catalogs, customer data, or release databases.

@@ -390,6 +390,22 @@ h2 {
   border-color: var(--line);
 }
 
+.badge-public {
+  background: #fff;
+  color: var(--teal);
+  border-color: var(--teal);
+}
+
+#funding .ua {
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  margin: 0 0 1rem;
+}
+
+#funding p:last-child {
+  max-width: 68ch;
+}
+
 .purpose {
   max-width: 68ch;
   margin: 0 0 1rem;
