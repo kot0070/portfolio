@@ -189,18 +189,17 @@ h1 {
   font-size: 1.05rem;
 }
 
+.hero .origin {
+  margin: 0.35rem 0 0;
+  color: var(--hero-muted);
+  font-size: 0.95rem;
+}
+
 .lead {
   max-width: 42rem;
   margin: 1.25rem 0 0;
   font-size: clamp(1.2rem, 2vw, 1.45rem);
   line-height: 1.45;
-}
-
-.ua {
-  margin: 1rem 0 0;
-  color: var(--hero-muted);
-  font-family: var(--serif);
-  font-size: 1.15rem;
 }
 
 .hero-points {
@@ -394,12 +393,6 @@ h2 {
   background: #fff;
   color: var(--teal);
   border-color: var(--teal);
-}
-
-#funding .ua {
-  color: var(--ink-soft);
-  font-size: 1.05rem;
-  margin: 0 0 1rem;
 }
 
 #funding p:last-child {
