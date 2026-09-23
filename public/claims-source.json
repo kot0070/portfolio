@@ -2633,8 +2633,8 @@
       ],
       "polarity": "assertion",
       "denies": [],
-      "note": "Owner voice 2026-09-23. Not a metric, invoice, or vendor claim.",
-      "text": "Some of these projects are paused — either still in testing, or held for lack of funding. I build them myself end-to-end, from idea through implementation."
+      "note": "Owner short framing 2026-09-23. Not a metric, invoice, or vendor claim.",
+      "text": "These projects are largely self-funded. Some next steps — paid integrations, third-party APIs, cloud or infrastructure, or broader multi-machine evaluation — are intentionally deferred until budget allows. Maturity labels on this page still reflect only what is verified at the pinned commits, not the full roadmap."
     },
     {
       "id": "funding.ua",
@@ -2656,8 +2656,8 @@
       ],
       "polarity": "assertion",
       "denies": [],
-      "note": "Owner Ukrainian line. Not an additional metric.",
-      "text": "Частина проєктів на паузі через тестування або відсутність фінансування — усе від ідеї до реалізації роблю сам."
+      "note": "Ukrainian gloss of the short self-funded line. Not an additional metric.",
+      "text": "Здебільшого самофінансування: платні наступні кроки відкладені, доки буде бюджет, а мітки зрілості лишаються про зафіксовані коміти."
     },
     {
       "id": "talk.frame",
