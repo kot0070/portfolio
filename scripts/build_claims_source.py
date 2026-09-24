@@ -459,7 +459,7 @@ def build_document(extracted: Extractor) -> dict:
         "selection_working_zone_sha": "efb1c591dd00022ba17d51033e3b5a3a4ad2feda",
         "evidence_rule": (
             "Each public claim lists the FINAL_PROJECT_FACTS fields that back it. "
-            "Selection-backed lines are presentation structure (order, mention-only, interview role) "
+            "Selection-backed lines are presentation structure (order, mention-only) "
             "or owner corrections whose data-sources begin with OWNER_NOTE. They carry fact_lock_fields: []. "
             "No claim uses a PRODUCTION maturity label. "
             "Polarity assertion is an affirmative fact. denial, limitation, caveat, constraint, "
