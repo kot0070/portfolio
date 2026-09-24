@@ -20,7 +20,6 @@
         <a href="#related">Related</a>
         <a href="#craft">Craft</a>
         <a href="#funding">Funding</a>
-        <a href="#talk">Talk track</a>
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -68,7 +67,7 @@
     <section id="work" aria-labelledby="work-title">
       <div class="wrap">
         <h2 id="work-title">Featured work</h2>
-        <p class="section-lead" data-claim="work.order" data-fields="selection" data-sources="PORTFOLIO_SELECTION featured order | PORTFOLIO_NARRATIVE talk order">Scroll order is the interview order: the local LLM benchmark, then Bruno AC, then the propeller calculator, then Bruno Electric.</p>
+        <p class="section-lead" data-claim="work.order" data-fields="selection" data-sources="PORTFOLIO_SELECTION featured order">Featured projects: the local LLM benchmark, Bruno AC, the propeller calculator, and Bruno Electric.</p>
 
         <article class="project project-center" id="local-llm-benchmark" data-project="local-llm-benchmark" data-role="centerpiece" data-maturity="ADVANCED PROTOTYPE">
           <p class="kicker" data-claim="llm.kicker" data-fields="selection" data-sources="PORTFOLIO_SELECTION featured rank 1 selection=featured_centerpiece">01 · Centerpiece</p>
@@ -78,7 +77,6 @@
           </div>
           <p class="repo-line"><span class="badge badge-public" data-claim="llm.public" data-fields="selection" data-sources="OWNER_NOTE 2026-09-23 visibility" data-note="Owner-corrected visibility 2026-09-23: repo is public">Public repository</span> <a class="slug" href="https://github.com/kot0070/local-llm-benchmark">local-llm-benchmark</a></p>
           <p class="purpose" data-claim="llm.purpose" data-fields="verified_purpose">Local Ollama LLM benchmark harness: 24 machine-checkable HOME tasks across 24 model profiles, time-boxed unattended runner with GPU contention/thermal controls, semantic vs strict scoring with paired-bootstrap HOME verdicts, and Markdown/CSV/Excel reports. One published 8-hour Windows/RTX 3070 night-run artifact set is checked in as evidence.</p>
-          <p data-claim="llm.role" data-fields="selection" data-sources="PORTFOLIO_SELECTION interview_role | PORTFOLIO_NARRATIVE §3">Interview role: open Applied AI Automation here — fixtures, tasks, runner, scoring, reports, and one published night run.</p>
           <div class="split">
             <div>
               <h4>Verified evidence</h4>
@@ -110,9 +108,8 @@
             <li data-claim="llm.limit.raw" data-polarity="limitation" data-fields="do_not_claim verified_limitations verified_public_safe_facts" data-denies="Raw results.jsonl published for independent recomputation">Raw <span class="slug">results.jsonl</span> is intentionally unpublished. Checked-in evidence is aggregates, CSV, and xlsx.</li>
             <li data-claim="llm.limit.pytest" data-polarity="limitation" data-fields="do_not_claim verified_testing_evidence" data-denies="251 / 286 / 385 pytest tests verified green at HEAD">I do not claim pytest greens such as 251 / 286 / 385 at this pin.</li>
             <li data-claim="llm.limit.ci" data-polarity="limitation" data-fields="verified_limitations verified_testing_evidence">No CI at the pin, and dependency manifests are absent. Launchers are Windows and Ollama specific, not portable out of the box.</li>
-            <li data-claim="llm.limit.scope" data-polarity="limitation" data-fields="verified_limitations do_not_claim" data-denies="PR #1 recruiter README is merged onto main">LM Studio and Specialists paths are deferred. Open docs PR #1 is not on main.</li>
+            <li data-claim="llm.limit.scope" data-polarity="limitation" data-fields="verified_limitations do_not_claim" data-denies="PR #1 recruiter README is merged onto main">Open docs PR #1 is not on main.</li>
           </ul>
-          <p class="more"><a href="#talk-llm">Interview cues for this project</a></p>
         </article>
 
         <article class="project" id="bruno-ac-pwa" data-project="bruno-ac-pwa" data-role="featured" data-maturity="WORKING APPLICATION">
@@ -123,7 +120,6 @@
           </div>
           <p class="repo-line"><span class="badge badge-private" data-claim="ac.private" data-fields="verified_public_safe_facts">Private repository</span> <span class="slug">bruno-ac-pwa</span></p>
           <p class="purpose" data-claim="ac.purpose" data-fields="verified_purpose">Offline-first Progressive Web App (static HTML/JS/CSS + service worker) for HVAC/AC contractor estimating: dual-track catalog pricing, Method A sales quoting, job costing, Service Call Journal/payroll planning, and Texas HVAC code-reference-driven BOM generation, deployed via GitHub Pages.</p>
-          <p data-claim="ac.role" data-fields="selection" data-sources="PORTFOLIO_SELECTION interview_role">Interview role: offline trade estimating, plus fail-closed domain limits.</p>
           <div class="split">
             <div>
               <h4>Verified evidence</h4>
@@ -150,14 +146,13 @@
           </div>
           <h4>Honest limitations</h4>
           <ul class="limits">
-            <li class="callout" data-claim="ac.limit.docgap" data-polarity="limitation" data-fields="verified_limitations do_not_claim recommended_interview_talking_points" data-denies="SW cache version docs already consistent (v4/v64/v31)">Service-worker cache docs do not match the runtime. README says bruno-ac-v4, sw.js uses bruno-ac-v64, and BRAND says bruno-ac-v31. That mismatch is a hygiene gap I would fix before public polish, not a strength.</li>
+            <li class="callout" data-claim="ac.limit.docgap" data-polarity="limitation" data-fields="verified_limitations do_not_claim recommended_interview_talking_points" data-denies="SW cache version docs already consistent (v4/v64/v31)">Service-worker cache docs do not match the runtime. README says bruno-ac-v4, sw.js uses bruno-ac-v64, and BRAND says bruno-ac-v31. That mismatch is a current limitation, not a strength.</li>
             <li data-claim="ac.limit.maturity" data-polarity="limitation" data-fields="do_not_claim verified_maturity" data-denies="PRODUCTION / multi-user cloud backend">Not PRODUCTION, and not a multi-user cloud backend.</li>
             <li data-claim="ac.limit.manualj" data-polarity="limitation" data-fields="do_not_claim verified_limitations" data-denies="Manual J/S/D or code-compliant tonnage-from-sqft">No Manual J/S/D. The app refuses square-footage-to-tonnage. Commercial Apply stays blocked pending AHJ or design verification.</li>
             <li data-claim="ac.limit.payroll" data-polarity="limitation" data-fields="do_not_claim verified_limitations" data-denies="Payroll figures are tax-compliant withholding software">Payroll figures are estimates, not tax software. Catalog prices include estimating placeholders.</li>
             <li data-claim="ac.limit.ci" data-polarity="limitation" data-fields="do_not_claim verified_limitations" data-denies="Full node unit suite green in permanent pin CI">I do not claim the full Node unit suite is green in permanent pin CI.</li>
             <li data-claim="ac.limit.private" data-polarity="limitation" data-fields="verified_public_safe_facts verified_limitations">Proprietary and private. A public demo needs redaction and permission. Job data stays on the device. One-device localStorage can be lost without a backup.</li>
           </ul>
-          <p class="more"><a href="#talk-ac">Interview cues for this project</a></p>
         </article>
 
         <article class="project" id="propeller-calculator" data-project="propeller-calculator" data-role="featured" data-maturity="WORKING APPLICATION">
@@ -168,7 +163,6 @@
           </div>
           <p class="repo-line"><span class="badge badge-private" data-claim="prop.private" data-fields="verified_public_safe_facts">Private repository</span> <span class="slug">propeller-calculator</span></p>
           <p class="purpose" data-claim="prop.purpose" data-fields="verified_purpose">Offline PySide6/SQLite Windows desktop application that ingests multi-source propeller performance/geometry data, interpolates Ct/Cp, solves motor–propeller operating points, and packages a one-file EXE with an AppData working database. Plain: a Windows program (Ukrainian/English) for choosing and comparing propellers with motor/battery settings using a large offline database.</p>
-          <p data-claim="prop.role" data-fields="selection" data-sources="PORTFOLIO_SELECTION interview_role">Interview role: desktop engineering product, and evidence-class honesty that transfers to AI judgment.</p>
           <div class="split">
             <div>
               <h4>Verified evidence</h4>
@@ -200,7 +194,6 @@
             <li data-claim="prop.limit.version" data-polarity="limitation" data-fields="verified_limitations verified_metrics">Package <span class="slug">__version__</span> is 3.0.0 while product framing is 3.3.0.</li>
             <li data-claim="prop.limit.data" data-polarity="limitation" data-fields="verified_limitations verified_public_safe_facts">Third-party dataset redistribution rights are undocumented. The release database is not published here. A legacy tkinter UI remains in the tree and is not what the main entry launches. Open docs PR #1 is not part of the pin.</li>
           </ul>
-          <p class="more"><a href="#talk-prop">Interview cues for this project</a></p>
         </article>
 
         <article class="project" id="bruno-electric-pwa" data-project="bruno-electric-pwa" data-role="featured" data-maturity="WORKING APPLICATION">
@@ -213,7 +206,6 @@
           <h4>Limitation</h4>
           <aside class="callout" data-claim="elec.offline" data-polarity="limitation" data-fields="do_not_claim verified_limitations verified_architecture verified_purpose" data-denies="Works offline after first load">Offline after first load is not supported at the locked pin. The service worker was intentionally retired for correctness (unregister, cache delete, network-only fetch). Docs that still say offline are unsupported. This is an installable online standalone shell. Bruno AC is the project that keeps an active offline cache (<span class="slug">bruno-ac-v64</span>); this one does not.</aside>
           <p class="purpose" data-claim="elec.purpose" data-fields="verified_purpose">Client-side electrical estimating PWA for Bruno Electric Services LLC: job costing, NEC-oriented calculators, catalog/BOM, quotes/invoices, and field call journaling — static HTML/JS on GitHub Pages (installable online standalone shell).</p>
-          <p data-claim="elec.role" data-fields="selection" data-sources="PORTFOLIO_SELECTION interview_role">Interview role: NEC estimating depth, and retiring a service worker when correctness required it.</p>
           <div class="split">
             <div>
               <h4>Verified evidence</h4>
@@ -246,7 +238,6 @@
             <li data-claim="elec.limit.docs" data-polarity="limitation" data-fields="do_not_claim verified_limitations" data-denies="Texas document compliance from unmerged PR #12">Texas document-compliance notes from unmerged PR #12 are not on the pin. Two HTML shells and a cache-bust skew are a known limitation. A stale service-worker test still describes the pre-retirement cache and is not wired into the Node runner.</li>
             <li data-claim="elec.limit.private" data-polarity="limitation" data-fields="verified_public_safe_facts verified_limitations">Proprietary and private. Architecture and engines are discussable; customer job data and the full catalog are not published here. Catalog unit prices are placeholders until Your Cost is entered.</li>
           </ul>
-          <p class="more"><a href="#talk-elec">Interview cues for this project</a></p>
         </article>
       </div>
     </section>
@@ -254,7 +245,7 @@
     <section id="related" aria-labelledby="related-title">
       <div class="wrap">
         <h2 id="related-title">Also built — mention only</h2>
-        <p class="section-lead" data-claim="related.intro" data-polarity="constraint" data-project="casino-game-analytics drone-pilot-usa uas-stage1-app" data-fields="maturity_label" data-sources="PORTFOLIO_SELECTION mention_only | PORTFOLIO_NARRATIVE §7">These three stay off the featured row so the Applied AI Automation spine stays clear. They are not peer cards. UAS Stage-1 is EARLY DEVELOPMENT only. Longer caveats are in the FAQ.</p>
+        <p class="section-lead" data-claim="related.intro" data-polarity="constraint" data-project="casino-game-analytics drone-pilot-usa uas-stage1-app" data-fields="maturity_label" data-sources="PORTFOLIO_SELECTION mention_only | PORTFOLIO_NARRATIVE §7">These three are mention-only, shorter cards. UAS Stage-1 is EARLY DEVELOPMENT only. Longer caveats are in the FAQ.</p>
 
         <article class="mention" id="casino-game-analytics" data-project="casino-game-analytics" data-role="mention" data-maturity="WORKING APPLICATION">
           <div class="badge-row">
@@ -263,7 +254,7 @@
           </div>
           <h3>Casino session analytics</h3>
           <p data-claim="casino.purpose" data-polarity="bounded" data-fields="verified_purpose do_not_claim" data-denies="Real-money betting, payments, or predictive gambling advice">Offline Windows desktop operator tool for manually recording and descriptively analyzing already-played roulette, blackjack, and baccarat sessions, without taking real bets, payments, or predictive decisions.</p>
-          <p data-claim="casino.honesty" data-fields="verified_implemented_functions verified_public_safe_facts" data-sources="PORTFOLIO_NARRATIVE §7">It keeps <span class="slug">needs_verification</span> flags and sample-size disclaimers, and it does not take automatic punitive action. The license is MIT. I go deeper only if you ask about desktop Qt or operator analytics.</p>
+          <p data-claim="casino.honesty" data-fields="verified_implemented_functions verified_public_safe_facts" data-sources="PORTFOLIO_NARRATIVE §7">It keeps <span class="slug">needs_verification</span> flags and sample-size disclaimers, and it does not take automatic punitive action. The license is MIT.</p>
         </article>
 
         <article class="mention" id="drone-pilot-usa" data-project="drone-pilot-usa" data-role="mention" data-maturity="ADVANCED PROTOTYPE">
@@ -349,68 +340,6 @@
       </div>
     </section>
 
-    <section class="talk" id="talk" aria-labelledby="talk-title">
-      <div class="wrap">
-        <h2 id="talk-title">Interview talk track</h2>
-        <p class="section-lead" data-claim="talk.frame" data-polarity="constraint" data-fields="do_not_claim" data-sources="PORTFOLIO_NARRATIVE §0" data-note="Speaker instruction. Cues are not extra metrics.">Cues below are the interview talk track. They do not add metrics beyond the locked facts. If a cue and a boast disagree, say the limitation.</p>
-
-        <h3 id="talk-open">Opening</h3>
-        <blockquote data-claim="talk.open" data-project="local-llm-benchmark bruno-ac-pwa propeller-calculator bruno-electric-pwa" data-fields="verified_purpose verified_metrics maturity_label" data-sources="PORTFOLIO_NARRATIVE §1">I'm Ivan Soprun. I position for AI Automation / Applied AI roles. The centerpiece of this portfolio is a local Ollama LLM benchmark harness — machine-checkable HOME tasks, a time-boxed unattended runner with GPU controls, semantic versus strict scoring, and a published night-run artifact set from a single RTX 3070 machine. Around that, I ship working applications in contractor estimating and engineering calculation, and I am careful about what I will and will not claim.</blockquote>
-
-        <h3 id="talk-llm">Local LLM benchmark</h3>
-        <ol data-project="local-llm-benchmark">
-          <li data-claim="llm.cue.1" data-fields="recommended_interview_talking_points verified_architecture">Start at the runner scheduler and status precedence, tied to the night-run spec.</li>
-          <li data-claim="llm.cue.2" data-fields="recommended_interview_talking_points verified_implemented_functions">Walk one HOME validate path: extract SQL, execute it in SQLite, then compare rows. HOME-20 is the example.</li>
-          <li data-claim="llm.cue.3" data-fields="recommended_interview_talking_points verified_metrics">Open the night-run summary: HOME_WIN, HOME_TIE, HOME_LOSS, and confidence intervals. State the ~19% budget skips in the same breath.</li>
-          <li data-claim="llm.cue.4" data-fields="recommended_interview_talking_points verified_implemented_functions">Explain semantic versus strict scoring with a FORMAT_ERROR example.</li>
-          <li data-claim="llm.cue.5" data-fields="recommended_interview_talking_points verified_testing_evidence" data-polarity="caveat">The mock-Ollama pytest surface is 331 <span class="slug">def test_</span> functions across 30 modules, observed statically. Presence is verified. A green run at this pin is not.</li>
-          <li data-claim="llm.cue.6" data-fields="recommended_interview_talking_points verified_limitations" data-polarity="limitation">Disclose the single machine, the single night, and the budget skips.</li>
-          <li data-claim="llm.cue.7" data-fields="recommended_interview_talking_points verified_public_safe_facts" data-polarity="constraint" data-denies="Invented AI tool identity">If asked about process: the LLM build and audit were AI-assisted. Say so. Do not invent a tool identity for other projects.</li>
-        </ol>
-        <blockquote data-claim="talk.bridge.ac" data-project="bruno-ac-pwa" data-fields="verified_purpose verified_implemented_functions" data-sources="PORTFOLIO_NARRATIVE §3">Evaluation craft is half the story. The other half is whether I ship domain tools that refuse to lie. Bruno AC is an offline HVAC estimating PWA that fails closed on financials and will not invent tonnage from square footage.</blockquote>
-
-        <h3 id="talk-ac">Bruno AC</h3>
-        <ol data-project="bruno-ac-pwa">
-          <li data-claim="ac.cue.1" data-fields="recommended_interview_talking_points verified_implemented_functions">Fail-closed Method A and invalid sentinels — no NaN to $0.</li>
-          <li data-claim="ac.cue.2" data-fields="recommended_interview_talking_points verified_implemented_functions">Dual-track catalog Apply lifecycle: Customer Price versus Your Cost.</li>
-          <li data-claim="ac.cue.3" data-fields="recommended_interview_talking_points verified_limitations" data-polarity="limitation">Domain honesty: it refuses square-footage-to-tonnage, and commercial Apply stays blocked pending AHJ or design verification.</li>
-          <li data-claim="ac.cue.4" data-fields="recommended_interview_talking_points verified_implemented_functions">Offline PWA, transactional full-app backup, and primary storage locks.</li>
-          <li data-claim="ac.cue.5" data-fields="recommended_interview_talking_points verified_limitations" data-polarity="limitation" data-denies="SW cache version docs already consistent (v4/v64/v31)">Volunteer the cache doc gap — README v4, sw.js v64, BRAND v31 — as hygiene to fix before public polish, not as polish.</li>
-        </ol>
-        <blockquote data-claim="talk.bridge.prop" data-project="propeller-calculator" data-fields="verified_implemented_functions verified_purpose" data-sources="PORTFOLIO_NARRATIVE §4">The same honesty pattern shows up on the desktop: an offline propeller calculator that separates raw sources from interpolated results and flags extrapolation.</blockquote>
-
-        <h3 id="talk-prop">Propeller calculator</h3>
-        <ol data-project="propeller-calculator">
-          <li data-claim="prop.cue.1" data-fields="recommended_interview_talking_points verified_architecture">Walk ETL, then provenance SQLite, then the physics solver, then bilingual Qt, then one-file packaging.</li>
-          <li data-claim="prop.cue.2" data-fields="recommended_interview_talking_points verified_implemented_functions" data-polarity="limitation"><span class="slug">evidence_class</span> and extrapolation flags. PARTIAL labels for water, Rm, and frame simplified paths.</li>
-          <li data-claim="prop.cue.3" data-fields="recommended_interview_talking_points verified_implemented_functions">Runtime hardening: backup and zip-slip checks, and an atomic AppData database install.</li>
-          <li data-claim="prop.cue.4" data-fields="recommended_interview_talking_points verified_limitations" data-polarity="limitation">Limitations to say out loud: unsigned EXE, no CI, dataset redistribution caution, and version drift between <span class="slug">__version__</span> 3.0.0 and product framing 3.3.0.</li>
-          <li data-claim="prop.cue.5" data-fields="do_not_claim verified_public_safe_facts" data-polarity="constraint" data-denies="Invented AI tool identity">Do not invent an AI-tool identity for how this app was built.</li>
-        </ol>
-        <blockquote data-claim="talk.bridge.elec" data-project="bruno-electric-pwa" data-fields="do_not_claim verified_limitations" data-polarity="limitation" data-sources="PORTFOLIO_NARRATIVE §5" data-denies="Works offline after first load">Bruno Electric is the other trade estimator. The story to volunteer is that offline was retired when correctness required it. I do not claim offline after first load.</blockquote>
-
-        <h3 id="talk-elec">Bruno Electric</h3>
-        <ol data-project="bruno-electric-pwa">
-          <li data-claim="elec.cue.1" data-fields="recommended_interview_talking_points verified_implemented_functions">Fail-closed NEC-oriented engines with explicit unsupported or unresolved paths.</li>
-          <li data-claim="elec.cue.2" data-fields="recommended_interview_talking_points verified_implemented_functions">Approved quote snapshot to an immutable fixed-price invoice basis.</li>
-          <li data-claim="elec.cue.3" data-fields="recommended_interview_talking_points verified_implemented_functions">Dispatch and call journal with materials, helper costing, and document preview.</li>
-          <li data-claim="elec.cue.4" data-fields="recommended_interview_talking_points verified_limitations" data-polarity="limitation" data-denies="Works offline after first load">Lead with the offline retirement. Docs that still say offline are wrong. The service worker was retired rather than shipping a cache that lied. Offline after first load is not supported.</li>
-          <li data-claim="elec.cue.5" data-fields="recommended_interview_talking_points do_not_claim verified_testing_evidence" data-polarity="denial" data-denies="800/800 or similar metrics from PR #15 / older audits">Cite suite presence, not unverified Playwright end-to-end counts and not capability-gate greens. Do not say an auditor re-verified 761/761. Do not cite 800/800.</li>
-        </ol>
-        <blockquote data-claim="talk.bridge.related" data-project="casino-game-analytics drone-pilot-usa uas-stage1-app" data-fields="maturity_label" data-sources="PORTFOLIO_NARRATIVE §6" data-polarity="constraint">Three more projects stay mentions. That keeps the Applied AI Automation spine clear, and it keeps maturity honest.</blockquote>
-
-        <h3 id="talk-mentions">If they ask about the mentions</h3>
-        <ul class="facts">
-          <li data-claim="talk.mention.casino" data-project="casino-game-analytics" data-fields="verified_purpose" data-polarity="bounded" data-sources="PORTFOLIO_NARRATIVE §7">Casino: descriptive analytics on completed sessions only — no bets, payments, or predictive decisions. Offer the Qt walk only if they ask.</li>
-          <li data-claim="talk.mention.drone" data-project="drone-pilot-usa" data-fields="verified_implemented_functions do_not_claim" data-polarity="denial" data-sources="PORTFOLIO_NARRATIVE §7">Drone: TRUST and Part 107 study plus fleet logging. Regulatory stubs return UNAVAILABLE. Maps need a network. Not an official FAA exam.</li>
-          <li data-claim="talk.mention.uas" data-project="uas-stage1-app" data-fields="maturity_label verified_architecture verified_limitations" data-polarity="constraint" data-sources="PORTFOLIO_NARRATIVE §7">UAS Stage-1: an early educational Android WebView. CI builds debug APKs from YAML-embedded sources. I would restructure to a checked-in app tree before calling it a product.</li>
-        </ul>
-
-        <h3 id="talk-close">Closing</h3>
-        <blockquote data-claim="talk.close" data-project="local-llm-benchmark bruno-ac-pwa bruno-electric-pwa propeller-calculator" data-fields="verified_purpose verified_implemented_functions verified_limitations" data-sources="PORTFOLIO_NARRATIVE §10">If you hire for Applied AI Automation, I want you to remember three things: I can walk an end-to-end local LLM eval system with honest budget limits; I ship domain tools that fail closed; and I would rather label a gap than invent a capability.</blockquote>
-      </div>
-    </section>
-
     <section class="faq" id="faq" aria-labelledby="faq-title">
       <div class="wrap">
         <h2 id="faq-title">FAQ and known caveats</h2>
@@ -432,7 +361,7 @@
         </details>
         <details data-project="bruno-ac-pwa">
           <summary>Are Bruno AC cache versions consistent?</summary>
-          <p data-claim="faq.ac.docgap" data-polarity="limitation" data-fields="verified_limitations verified_metrics do_not_claim" data-denies="SW cache version docs already consistent (v4/v64/v31)">The runtime cache name is bruno-ac-v64. Docs and BRAND still disagree: README v4, sw.js v64, BRAND v31. That is a hygiene gap I would fix before public polish, not a strength.</p>
+          <p data-claim="faq.ac.docgap" data-polarity="limitation" data-fields="verified_limitations verified_metrics do_not_claim" data-denies="SW cache version docs already consistent (v4/v64/v31)">The runtime cache name is bruno-ac-v64. Docs and BRAND still disagree: README v4, sw.js v64, BRAND v31. That mismatch is a current limitation, not a strength.</p>
         </details>
         <details data-project="bruno-ac-pwa bruno-electric-pwa">
           <summary>Can you demo the Bruno apps with customer data?</summary>

@@ -9,7 +9,7 @@
   "fact_lock_date": "2026-09-23",
   "fact_lock_base_sha": "50e8f9e7f64f5cc552963fdc83b614c65ffb1c8f",
   "selection_working_zone_sha": "efb1c591dd00022ba17d51033e3b5a3a4ad2feda",
-  "evidence_rule": "Each public claim lists the FINAL_PROJECT_FACTS fields that back it. Selection-backed lines are presentation structure (order, mention-only, interview role) or owner corrections whose data-sources begin with OWNER_NOTE. They carry fact_lock_fields: []. No claim uses a PRODUCTION maturity label. Polarity assertion is an affirmative fact. denial, limitation, caveat, constraint, and bounded statements are how do_not_claim items are kept off the boast side of the page.",
+  "evidence_rule": "Each public claim lists the FINAL_PROJECT_FACTS fields that back it. Selection-backed lines are presentation structure (order, mention-only) or owner corrections whose data-sources begin with OWNER_NOTE. They carry fact_lock_fields: []. No claim uses a PRODUCTION maturity label. Polarity assertion is an affirmative fact. denial, limitation, caveat, constraint, and bounded statements are how do_not_claim items are kept off the boast side of the page.",
   "production_labels_used": false,
   "featured_order": [
     {
@@ -82,7 +82,7 @@
     {
       "id": "hero.position",
       "html_anchor": "top",
-      "line": 35,
+      "line": 34,
       "project_slugs": [],
       "backing": "PORTFOLIO_SELECTION",
       "fact_lock_fields": [],
@@ -97,7 +97,7 @@
     {
       "id": "hero.origin",
       "html_anchor": "top",
-      "line": 36,
+      "line": 35,
       "project_slugs": [],
       "backing": "PORTFOLIO_SELECTION",
       "fact_lock_fields": [],
@@ -112,7 +112,7 @@
     {
       "id": "hero.lead",
       "html_anchor": "top",
-      "line": 37,
+      "line": 36,
       "project_slugs": [
         "local-llm-benchmark",
         "bruno-ac-pwa",
@@ -137,7 +137,7 @@
     {
       "id": "hero.point.eval",
       "html_anchor": "top",
-      "line": 39,
+      "line": 38,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -157,7 +157,7 @@
     {
       "id": "hero.point.support",
       "html_anchor": "top",
-      "line": 40,
+      "line": 39,
       "project_slugs": [
         "bruno-ac-pwa",
         "propeller-calculator",
@@ -179,7 +179,7 @@
     {
       "id": "hero.point.labels",
       "html_anchor": "top",
-      "line": 41,
+      "line": 40,
       "project_slugs": [
         "local-llm-benchmark",
         "uas-stage1-app",
@@ -207,7 +207,7 @@
     {
       "id": "read.legend",
       "html_anchor": "read",
-      "line": 53,
+      "line": 52,
       "project_slugs": [
         "local-llm-benchmark",
         "uas-stage1-app",
@@ -235,7 +235,7 @@
     {
       "id": "read.map.llm",
       "html_anchor": "read",
-      "line": 55,
+      "line": 54,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -254,7 +254,7 @@
     {
       "id": "read.map.ac",
       "html_anchor": "read",
-      "line": 56,
+      "line": 55,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -273,7 +273,7 @@
     {
       "id": "read.map.prop",
       "html_anchor": "read",
-      "line": 57,
+      "line": 56,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -292,7 +292,7 @@
     {
       "id": "read.map.elec",
       "html_anchor": "read",
-      "line": 58,
+      "line": 57,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -311,7 +311,7 @@
     {
       "id": "read.map.casino",
       "html_anchor": "read",
-      "line": 59,
+      "line": 58,
       "project_slugs": [
         "casino-game-analytics"
       ],
@@ -330,7 +330,7 @@
     {
       "id": "read.map.drone",
       "html_anchor": "read",
-      "line": 60,
+      "line": 59,
       "project_slugs": [
         "drone-pilot-usa"
       ],
@@ -349,7 +349,7 @@
     {
       "id": "read.map.uas",
       "html_anchor": "read",
-      "line": 61,
+      "line": 60,
       "project_slugs": [
         "uas-stage1-app"
       ],
@@ -368,7 +368,7 @@
     {
       "id": "read.evidence",
       "html_anchor": "read",
-      "line": 63,
+      "line": 62,
       "project_slugs": [
         "local-llm-benchmark",
         "bruno-ac-pwa",
@@ -392,7 +392,7 @@
     {
       "id": "read.visibility",
       "html_anchor": "read",
-      "line": 64,
+      "line": 63,
       "project_slugs": [
         "local-llm-benchmark",
         "bruno-ac-pwa",
@@ -415,23 +415,22 @@
     {
       "id": "work.order",
       "html_anchor": "work",
-      "line": 71,
+      "line": 70,
       "project_slugs": [],
       "backing": "PORTFOLIO_SELECTION",
       "fact_lock_fields": [],
       "sources": [
-        "PORTFOLIO_SELECTION featured order",
-        "PORTFOLIO_NARRATIVE talk order"
+        "PORTFOLIO_SELECTION featured order"
       ],
       "polarity": "assertion",
       "denies": [],
       "note": null,
-      "text": "Scroll order is the interview order: the local LLM benchmark, then Bruno AC, then the propeller calculator, then Bruno Electric."
+      "text": "Featured projects: the local LLM benchmark, Bruno AC, the propeller calculator, and Bruno Electric."
     },
     {
       "id": "llm.kicker",
       "html_anchor": "local-llm-benchmark",
-      "line": 74,
+      "line": 73,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -448,7 +447,7 @@
     {
       "id": "llm.badge.maturity",
       "html_anchor": "local-llm-benchmark",
-      "line": 77,
+      "line": 76,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -465,7 +464,7 @@
     {
       "id": "llm.public",
       "html_anchor": "local-llm-benchmark",
-      "line": 79,
+      "line": 78,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -482,7 +481,7 @@
     {
       "id": "llm.purpose",
       "html_anchor": "local-llm-benchmark",
-      "line": 80,
+      "line": 79,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -497,27 +496,9 @@
       "text": "Local Ollama LLM benchmark harness: 24 machine-checkable HOME tasks across 24 model profiles, time-boxed unattended runner with GPU contention/thermal controls, semantic vs strict scoring with paired-bootstrap HOME verdicts, and Markdown/CSV/Excel reports. One published 8-hour Windows/RTX 3070 night-run artifact set is checked in as evidence."
     },
     {
-      "id": "llm.role",
-      "html_anchor": "local-llm-benchmark",
-      "line": 81,
-      "project_slugs": [
-        "local-llm-benchmark"
-      ],
-      "backing": "PORTFOLIO_SELECTION",
-      "fact_lock_fields": [],
-      "sources": [
-        "PORTFOLIO_SELECTION interview_role",
-        "PORTFOLIO_NARRATIVE §3"
-      ],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Interview role: open Applied AI Automation here — fixtures, tasks, runner, scoring, reports, and one published night run."
-    },
-    {
       "id": "llm.metric.matrix",
       "html_anchor": "local-llm-benchmark",
-      "line": 86,
+      "line": 84,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -535,7 +516,7 @@
     {
       "id": "llm.metric.night",
       "html_anchor": "local-llm-benchmark",
-      "line": 87,
+      "line": 85,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -553,7 +534,7 @@
     {
       "id": "llm.metric.score",
       "html_anchor": "local-llm-benchmark",
-      "line": 88,
+      "line": 86,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -571,7 +552,7 @@
     {
       "id": "llm.metric.tests",
       "html_anchor": "local-llm-benchmark",
-      "line": 89,
+      "line": 87,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -589,7 +570,7 @@
     {
       "id": "llm.tech.python",
       "html_anchor": "local-llm-benchmark",
-      "line": 95,
+      "line": 93,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -606,7 +587,7 @@
     {
       "id": "llm.tech.pytest",
       "html_anchor": "local-llm-benchmark",
-      "line": 96,
+      "line": 94,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -623,7 +604,7 @@
     {
       "id": "llm.tech.ollama",
       "html_anchor": "local-llm-benchmark",
-      "line": 97,
+      "line": 95,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -640,7 +621,7 @@
     {
       "id": "llm.tech.ps",
       "html_anchor": "local-llm-benchmark",
-      "line": 98,
+      "line": 96,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -657,7 +638,7 @@
     {
       "id": "llm.tech.gpu",
       "html_anchor": "local-llm-benchmark",
-      "line": 99,
+      "line": 97,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -674,7 +655,7 @@
     {
       "id": "llm.tech.sqlite",
       "html_anchor": "local-llm-benchmark",
-      "line": 100,
+      "line": 98,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -692,7 +673,7 @@
     {
       "id": "llm.tech.reports",
       "html_anchor": "local-llm-benchmark",
-      "line": 101,
+      "line": 99,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -709,7 +690,7 @@
     {
       "id": "llm.limit.maturity",
       "html_anchor": "local-llm-benchmark",
-      "line": 107,
+      "line": 105,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -730,7 +711,7 @@
     {
       "id": "llm.limit.machine",
       "html_anchor": "local-llm-benchmark",
-      "line": 108,
+      "line": 106,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -747,7 +728,7 @@
     {
       "id": "llm.limit.leaderboard",
       "html_anchor": "local-llm-benchmark",
-      "line": 109,
+      "line": 107,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -768,7 +749,7 @@
     {
       "id": "llm.limit.raw",
       "html_anchor": "local-llm-benchmark",
-      "line": 110,
+      "line": 108,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -789,7 +770,7 @@
     {
       "id": "llm.limit.pytest",
       "html_anchor": "local-llm-benchmark",
-      "line": 111,
+      "line": 109,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -809,7 +790,7 @@
     {
       "id": "llm.limit.ci",
       "html_anchor": "local-llm-benchmark",
-      "line": 112,
+      "line": 110,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -827,7 +808,7 @@
     {
       "id": "llm.limit.scope",
       "html_anchor": "local-llm-benchmark",
-      "line": 113,
+      "line": 111,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -842,12 +823,12 @@
         "PR #1 recruiter README is merged onto main"
       ],
       "note": null,
-      "text": "LM Studio and Specialists paths are deferred. Open docs PR #1 is not on main."
+      "text": "Open docs PR #1 is not on main."
     },
     {
       "id": "ac.kicker",
       "html_anchor": "bruno-ac-pwa",
-      "line": 119,
+      "line": 116,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -864,7 +845,7 @@
     {
       "id": "ac.badge.maturity",
       "html_anchor": "bruno-ac-pwa",
-      "line": 122,
+      "line": 119,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -881,7 +862,7 @@
     {
       "id": "ac.private",
       "html_anchor": "bruno-ac-pwa",
-      "line": 124,
+      "line": 121,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -898,7 +879,7 @@
     {
       "id": "ac.purpose",
       "html_anchor": "bruno-ac-pwa",
-      "line": 125,
+      "line": 122,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -913,26 +894,9 @@
       "text": "Offline-first Progressive Web App (static HTML/JS/CSS + service worker) for HVAC/AC contractor estimating: dual-track catalog pricing, Method A sales quoting, job costing, Service Call Journal/payroll planning, and Texas HVAC code-reference-driven BOM generation, deployed via GitHub Pages."
     },
     {
-      "id": "ac.role",
-      "html_anchor": "bruno-ac-pwa",
-      "line": 126,
-      "project_slugs": [
-        "bruno-ac-pwa"
-      ],
-      "backing": "PORTFOLIO_SELECTION",
-      "fact_lock_fields": [],
-      "sources": [
-        "PORTFOLIO_SELECTION interview_role"
-      ],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Interview role: offline trade estimating, plus fail-closed domain limits."
-    },
-    {
       "id": "ac.metric.failclosed",
       "html_anchor": "bruno-ac-pwa",
-      "line": 131,
+      "line": 127,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -949,7 +913,7 @@
     {
       "id": "ac.metric.catalog",
       "html_anchor": "bruno-ac-pwa",
-      "line": 132,
+      "line": 128,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -966,7 +930,7 @@
     {
       "id": "ac.metric.offline",
       "html_anchor": "bruno-ac-pwa",
-      "line": 133,
+      "line": 129,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -985,7 +949,7 @@
     {
       "id": "ac.metric.e2e",
       "html_anchor": "bruno-ac-pwa",
-      "line": 134,
+      "line": 130,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1003,7 +967,7 @@
     {
       "id": "ac.metric.units",
       "html_anchor": "bruno-ac-pwa",
-      "line": 135,
+      "line": 131,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1021,7 +985,7 @@
     {
       "id": "ac.metric.code",
       "html_anchor": "bruno-ac-pwa",
-      "line": 136,
+      "line": 132,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1039,7 +1003,7 @@
     {
       "id": "ac.tech.html",
       "html_anchor": "bruno-ac-pwa",
-      "line": 142,
+      "line": 138,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1056,7 +1020,7 @@
     {
       "id": "ac.tech.sw",
       "html_anchor": "bruno-ac-pwa",
-      "line": 143,
+      "line": 139,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1075,7 +1039,7 @@
     {
       "id": "ac.tech.manifest",
       "html_anchor": "bruno-ac-pwa",
-      "line": 144,
+      "line": 140,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1092,7 +1056,7 @@
     {
       "id": "ac.tech.storage",
       "html_anchor": "bruno-ac-pwa",
-      "line": 145,
+      "line": 141,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1110,7 +1074,7 @@
     {
       "id": "ac.tech.playwright",
       "html_anchor": "bruno-ac-pwa",
-      "line": 146,
+      "line": 142,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1127,7 +1091,7 @@
     {
       "id": "ac.tech.pages",
       "html_anchor": "bruno-ac-pwa",
-      "line": 147,
+      "line": 143,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1144,7 +1108,7 @@
     {
       "id": "ac.limit.docgap",
       "html_anchor": "bruno-ac-pwa",
-      "line": 153,
+      "line": 149,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1160,12 +1124,12 @@
         "SW cache version docs already consistent (v4/v64/v31)"
       ],
       "note": null,
-      "text": "Service-worker cache docs do not match the runtime. README says bruno-ac-v4, sw.js uses bruno-ac-v64, and BRAND says bruno-ac-v31. That mismatch is a hygiene gap I would fix before public polish, not a strength."
+      "text": "Service-worker cache docs do not match the runtime. README says bruno-ac-v4, sw.js uses bruno-ac-v64, and BRAND says bruno-ac-v31. That mismatch is a current limitation, not a strength."
     },
     {
       "id": "ac.limit.maturity",
       "html_anchor": "bruno-ac-pwa",
-      "line": 154,
+      "line": 150,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1185,7 +1149,7 @@
     {
       "id": "ac.limit.manualj",
       "html_anchor": "bruno-ac-pwa",
-      "line": 155,
+      "line": 151,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1205,7 +1169,7 @@
     {
       "id": "ac.limit.payroll",
       "html_anchor": "bruno-ac-pwa",
-      "line": 156,
+      "line": 152,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1225,7 +1189,7 @@
     {
       "id": "ac.limit.ci",
       "html_anchor": "bruno-ac-pwa",
-      "line": 157,
+      "line": 153,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1245,7 +1209,7 @@
     {
       "id": "ac.limit.private",
       "html_anchor": "bruno-ac-pwa",
-      "line": 158,
+      "line": 154,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -1263,7 +1227,7 @@
     {
       "id": "prop.kicker",
       "html_anchor": "propeller-calculator",
-      "line": 164,
+      "line": 159,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1280,7 +1244,7 @@
     {
       "id": "prop.badge.maturity",
       "html_anchor": "propeller-calculator",
-      "line": 167,
+      "line": 162,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1297,7 +1261,7 @@
     {
       "id": "prop.private",
       "html_anchor": "propeller-calculator",
-      "line": 169,
+      "line": 164,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1314,7 +1278,7 @@
     {
       "id": "prop.purpose",
       "html_anchor": "propeller-calculator",
-      "line": 170,
+      "line": 165,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1329,26 +1293,9 @@
       "text": "Offline PySide6/SQLite Windows desktop application that ingests multi-source propeller performance/geometry data, interpolates Ct/Cp, solves motor–propeller operating points, and packages a one-file EXE with an AppData working database. Plain: a Windows program (Ukrainian/English) for choosing and comparing propellers with motor/battery settings using a large offline database."
     },
     {
-      "id": "prop.role",
-      "html_anchor": "propeller-calculator",
-      "line": 171,
-      "project_slugs": [
-        "propeller-calculator"
-      ],
-      "backing": "PORTFOLIO_SELECTION",
-      "fact_lock_fields": [],
-      "sources": [
-        "PORTFOLIO_SELECTION interview_role"
-      ],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Interview role: desktop engineering product, and evidence-class honesty that transfers to AI judgment."
-    },
-    {
       "id": "prop.metric.counts",
       "html_anchor": "propeller-calculator",
-      "line": 176,
+      "line": 170,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1365,7 +1312,7 @@
     {
       "id": "prop.metric.evidence",
       "html_anchor": "propeller-calculator",
-      "line": 177,
+      "line": 171,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1382,7 +1329,7 @@
     {
       "id": "prop.metric.pack",
       "html_anchor": "propeller-calculator",
-      "line": 178,
+      "line": 172,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1400,7 +1347,7 @@
     {
       "id": "prop.metric.tests",
       "html_anchor": "propeller-calculator",
-      "line": 179,
+      "line": 173,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1417,7 +1364,7 @@
     {
       "id": "prop.tech.py",
       "html_anchor": "propeller-calculator",
-      "line": 185,
+      "line": 179,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1434,7 +1381,7 @@
     {
       "id": "prop.tech.qt",
       "html_anchor": "propeller-calculator",
-      "line": 186,
+      "line": 180,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1451,7 +1398,7 @@
     {
       "id": "prop.tech.sql",
       "html_anchor": "propeller-calculator",
-      "line": 187,
+      "line": 181,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1468,7 +1415,7 @@
     {
       "id": "prop.tech.exe",
       "html_anchor": "propeller-calculator",
-      "line": 188,
+      "line": 182,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1485,7 +1432,7 @@
     {
       "id": "prop.tech.unit",
       "html_anchor": "propeller-calculator",
-      "line": 189,
+      "line": 183,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1502,7 +1449,7 @@
     {
       "id": "prop.tech.lang",
       "html_anchor": "propeller-calculator",
-      "line": 190,
+      "line": 184,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1520,7 +1467,7 @@
     {
       "id": "prop.limit.maturity",
       "html_anchor": "propeller-calculator",
-      "line": 196,
+      "line": 190,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1540,7 +1487,7 @@
     {
       "id": "prop.limit.live",
       "html_anchor": "propeller-calculator",
-      "line": 197,
+      "line": 191,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1561,7 +1508,7 @@
     {
       "id": "prop.limit.sign",
       "html_anchor": "propeller-calculator",
-      "line": 198,
+      "line": 192,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1582,7 +1529,7 @@
     {
       "id": "prop.limit.partial",
       "html_anchor": "propeller-calculator",
-      "line": 199,
+      "line": 193,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1602,7 +1549,7 @@
     {
       "id": "prop.limit.version",
       "html_anchor": "propeller-calculator",
-      "line": 200,
+      "line": 194,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1620,7 +1567,7 @@
     {
       "id": "prop.limit.data",
       "html_anchor": "propeller-calculator",
-      "line": 201,
+      "line": 195,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -1638,7 +1585,7 @@
     {
       "id": "elec.kicker",
       "html_anchor": "bruno-electric-pwa",
-      "line": 207,
+      "line": 200,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1655,7 +1602,7 @@
     {
       "id": "elec.badge.maturity",
       "html_anchor": "bruno-electric-pwa",
-      "line": 210,
+      "line": 203,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1672,7 +1619,7 @@
     {
       "id": "elec.private",
       "html_anchor": "bruno-electric-pwa",
-      "line": 212,
+      "line": 205,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1689,7 +1636,7 @@
     {
       "id": "elec.offline",
       "html_anchor": "bruno-electric-pwa",
-      "line": 214,
+      "line": 207,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1711,7 +1658,7 @@
     {
       "id": "elec.purpose",
       "html_anchor": "bruno-electric-pwa",
-      "line": 215,
+      "line": 208,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1726,26 +1673,9 @@
       "text": "Client-side electrical estimating PWA for Bruno Electric Services LLC: job costing, NEC-oriented calculators, catalog/BOM, quotes/invoices, and field call journaling — static HTML/JS on GitHub Pages (installable online standalone shell)."
     },
     {
-      "id": "elec.role",
-      "html_anchor": "bruno-electric-pwa",
-      "line": 216,
-      "project_slugs": [
-        "bruno-electric-pwa"
-      ],
-      "backing": "PORTFOLIO_SELECTION",
-      "fact_lock_fields": [],
-      "sources": [
-        "PORTFOLIO_SELECTION interview_role"
-      ],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Interview role: NEC estimating depth, and retiring a service worker when correctness required it."
-    },
-    {
       "id": "elec.metric.nec",
       "html_anchor": "bruno-electric-pwa",
-      "line": 221,
+      "line": 213,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1763,7 +1693,7 @@
     {
       "id": "elec.metric.quote",
       "html_anchor": "bruno-electric-pwa",
-      "line": 222,
+      "line": 214,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1780,7 +1710,7 @@
     {
       "id": "elec.metric.journal",
       "html_anchor": "bruno-electric-pwa",
-      "line": 223,
+      "line": 215,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1797,7 +1727,7 @@
     {
       "id": "elec.metric.pages",
       "html_anchor": "bruno-electric-pwa",
-      "line": 224,
+      "line": 216,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1815,7 +1745,7 @@
     {
       "id": "elec.metric.suite",
       "html_anchor": "bruno-electric-pwa",
-      "line": 225,
+      "line": 217,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1835,7 +1765,7 @@
     {
       "id": "elec.metric.e2e",
       "html_anchor": "bruno-electric-pwa",
-      "line": 226,
+      "line": 218,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1855,7 +1785,7 @@
     {
       "id": "elec.tech.html",
       "html_anchor": "bruno-electric-pwa",
-      "line": 232,
+      "line": 224,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1872,7 +1802,7 @@
     {
       "id": "elec.tech.manifest",
       "html_anchor": "bruno-electric-pwa",
-      "line": 233,
+      "line": 225,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1890,7 +1820,7 @@
     {
       "id": "elec.tech.sw",
       "html_anchor": "bruno-electric-pwa",
-      "line": 234,
+      "line": 226,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1908,7 +1838,7 @@
     {
       "id": "elec.tech.storage",
       "html_anchor": "bruno-electric-pwa",
-      "line": 235,
+      "line": 227,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1925,7 +1855,7 @@
     {
       "id": "elec.tech.node",
       "html_anchor": "bruno-electric-pwa",
-      "line": 236,
+      "line": 228,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1942,7 +1872,7 @@
     {
       "id": "elec.tech.playwright",
       "html_anchor": "bruno-electric-pwa",
-      "line": 237,
+      "line": 229,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1959,7 +1889,7 @@
     {
       "id": "elec.tech.pages",
       "html_anchor": "bruno-electric-pwa",
-      "line": 238,
+      "line": 230,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1976,7 +1906,7 @@
     {
       "id": "elec.limit.maturity",
       "html_anchor": "bruno-electric-pwa",
-      "line": 244,
+      "line": 236,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -1996,7 +1926,7 @@
     {
       "id": "elec.limit.gates",
       "html_anchor": "bruno-electric-pwa",
-      "line": 245,
+      "line": 237,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -2017,7 +1947,7 @@
     {
       "id": "elec.limit.docs",
       "html_anchor": "bruno-electric-pwa",
-      "line": 246,
+      "line": 238,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -2037,7 +1967,7 @@
     {
       "id": "elec.limit.private",
       "html_anchor": "bruno-electric-pwa",
-      "line": 247,
+      "line": 239,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -2055,7 +1985,7 @@
     {
       "id": "related.intro",
       "html_anchor": "related",
-      "line": 257,
+      "line": 248,
       "project_slugs": [
         "casino-game-analytics",
         "drone-pilot-usa",
@@ -2072,12 +2002,12 @@
       "polarity": "constraint",
       "denies": [],
       "note": null,
-      "text": "These three stay off the featured row so the Applied AI Automation spine stays clear. They are not peer cards. UAS Stage-1 is EARLY DEVELOPMENT only. Longer caveats are in the FAQ."
+      "text": "These three are mention-only, shorter cards. UAS Stage-1 is EARLY DEVELOPMENT only. Longer caveats are in the FAQ."
     },
     {
       "id": "casino.badge.role",
       "html_anchor": "casino-game-analytics",
-      "line": 261,
+      "line": 252,
       "project_slugs": [
         "casino-game-analytics"
       ],
@@ -2094,7 +2024,7 @@
     {
       "id": "casino.badge.maturity",
       "html_anchor": "casino-game-analytics",
-      "line": 262,
+      "line": 253,
       "project_slugs": [
         "casino-game-analytics"
       ],
@@ -2111,7 +2041,7 @@
     {
       "id": "casino.purpose",
       "html_anchor": "casino-game-analytics",
-      "line": 265,
+      "line": 256,
       "project_slugs": [
         "casino-game-analytics"
       ],
@@ -2131,7 +2061,7 @@
     {
       "id": "casino.honesty",
       "html_anchor": "casino-game-analytics",
-      "line": 266,
+      "line": 257,
       "project_slugs": [
         "casino-game-analytics"
       ],
@@ -2146,12 +2076,12 @@
       "polarity": "assertion",
       "denies": [],
       "note": null,
-      "text": "It keeps needs_verification flags and sample-size disclaimers, and it does not take automatic punitive action. The license is MIT. I go deeper only if you ask about desktop Qt or operator analytics."
+      "text": "It keeps needs_verification flags and sample-size disclaimers, and it does not take automatic punitive action. The license is MIT."
     },
     {
       "id": "drone.badge.role",
       "html_anchor": "drone-pilot-usa",
-      "line": 271,
+      "line": 262,
       "project_slugs": [
         "drone-pilot-usa"
       ],
@@ -2168,7 +2098,7 @@
     {
       "id": "drone.badge.maturity",
       "html_anchor": "drone-pilot-usa",
-      "line": 272,
+      "line": 263,
       "project_slugs": [
         "drone-pilot-usa"
       ],
@@ -2185,7 +2115,7 @@
     {
       "id": "drone.purpose",
       "html_anchor": "drone-pilot-usa",
-      "line": 275,
+      "line": 266,
       "project_slugs": [
         "drone-pilot-usa"
       ],
@@ -2203,7 +2133,7 @@
     {
       "id": "drone.deny",
       "html_anchor": "drone-pilot-usa",
-      "line": 276,
+      "line": 267,
       "project_slugs": [
         "drone-pilot-usa"
       ],
@@ -2227,7 +2157,7 @@
     {
       "id": "drone.maps",
       "html_anchor": "drone-pilot-usa",
-      "line": 277,
+      "line": 268,
       "project_slugs": [
         "drone-pilot-usa"
       ],
@@ -2250,7 +2180,7 @@
     {
       "id": "uas.badge.role",
       "html_anchor": "uas-stage1-app",
-      "line": 282,
+      "line": 273,
       "project_slugs": [
         "uas-stage1-app"
       ],
@@ -2267,7 +2197,7 @@
     {
       "id": "uas.badge.maturity",
       "html_anchor": "uas-stage1-app",
-      "line": 283,
+      "line": 274,
       "project_slugs": [
         "uas-stage1-app"
       ],
@@ -2284,7 +2214,7 @@
     {
       "id": "uas.purpose",
       "html_anchor": "uas-stage1-app",
-      "line": 286,
+      "line": 277,
       "project_slugs": [
         "uas-stage1-app"
       ],
@@ -2301,7 +2231,7 @@
     {
       "id": "uas.curriculum",
       "html_anchor": "uas-stage1-app",
-      "line": 287,
+      "line": 278,
       "project_slugs": [
         "uas-stage1-app"
       ],
@@ -2319,7 +2249,7 @@
     {
       "id": "uas.layout",
       "html_anchor": "uas-stage1-app",
-      "line": 288,
+      "line": 279,
       "project_slugs": [
         "uas-stage1-app"
       ],
@@ -2342,7 +2272,7 @@
     {
       "id": "uas.deny",
       "html_anchor": "uas-stage1-app",
-      "line": 289,
+      "line": 280,
       "project_slugs": [
         "uas-stage1-app"
       ],
@@ -2364,7 +2294,7 @@
     {
       "id": "craft.failclosed",
       "html_anchor": "craft",
-      "line": 297,
+      "line": 288,
       "project_slugs": [
         "bruno-ac-pwa",
         "bruno-electric-pwa",
@@ -2388,7 +2318,7 @@
     {
       "id": "craft.local.caption",
       "html_anchor": "craft",
-      "line": 300,
+      "line": 291,
       "project_slugs": [],
       "backing": "PORTFOLIO_SELECTION",
       "fact_lock_fields": [],
@@ -2403,7 +2333,7 @@
     {
       "id": "craft.local.ac",
       "html_anchor": "craft",
-      "line": 310,
+      "line": 301,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -2421,7 +2351,7 @@
     {
       "id": "craft.local.elec",
       "html_anchor": "craft",
-      "line": 314,
+      "line": 305,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -2442,7 +2372,7 @@
     {
       "id": "craft.local.prop",
       "html_anchor": "craft",
-      "line": 318,
+      "line": 309,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -2460,7 +2390,7 @@
     {
       "id": "craft.local.llm",
       "html_anchor": "craft",
-      "line": 322,
+      "line": 313,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -2478,7 +2408,7 @@
     {
       "id": "craft.local.casino",
       "html_anchor": "craft",
-      "line": 326,
+      "line": 317,
       "project_slugs": [
         "casino-game-analytics"
       ],
@@ -2496,7 +2426,7 @@
     {
       "id": "craft.local.drone",
       "html_anchor": "craft",
-      "line": 330,
+      "line": 321,
       "project_slugs": [
         "drone-pilot-usa"
       ],
@@ -2516,7 +2446,7 @@
     {
       "id": "craft.local.uas",
       "html_anchor": "craft",
-      "line": 334,
+      "line": 325,
       "project_slugs": [
         "uas-stage1-app"
       ],
@@ -2534,7 +2464,7 @@
     {
       "id": "craft.tests",
       "html_anchor": "craft",
-      "line": 339,
+      "line": 330,
       "project_slugs": [
         "bruno-ac-pwa",
         "local-llm-benchmark",
@@ -2561,7 +2491,7 @@
     {
       "id": "craft.lang",
       "html_anchor": "craft",
-      "line": 340,
+      "line": 331,
       "project_slugs": [
         "propeller-calculator",
         "casino-game-analytics",
@@ -2585,7 +2515,7 @@
     {
       "id": "craft.pack",
       "html_anchor": "craft",
-      "line": 341,
+      "line": 332,
       "project_slugs": [
         "bruno-ac-pwa",
         "bruno-electric-pwa",
@@ -2611,7 +2541,7 @@
     {
       "id": "funding.lead",
       "html_anchor": "funding",
-      "line": 348,
+      "line": 339,
       "project_slugs": [
         "local-llm-benchmark",
         "bruno-ac-pwa",
@@ -2632,624 +2562,9 @@
       "text": "Some of these projects are paused — either still in testing, or held for lack of funding. I build them myself end-to-end, from idea through implementation."
     },
     {
-      "id": "talk.frame",
-      "html_anchor": "talk",
-      "line": 355,
-      "project_slugs": [],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "do_not_claim"
-      ],
-      "sources": [
-        "PORTFOLIO_NARRATIVE §0"
-      ],
-      "polarity": "constraint",
-      "denies": [],
-      "note": "Speaker instruction. Cues are not extra metrics.",
-      "text": "Cues below are the interview talk track. They do not add metrics beyond the locked facts. If a cue and a boast disagree, say the limitation."
-    },
-    {
-      "id": "talk.open",
-      "html_anchor": "talk",
-      "line": 358,
-      "project_slugs": [
-        "local-llm-benchmark",
-        "bruno-ac-pwa",
-        "propeller-calculator",
-        "bruno-electric-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "verified_purpose",
-        "verified_metrics",
-        "maturity_label"
-      ],
-      "sources": [
-        "PORTFOLIO_NARRATIVE §1"
-      ],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "I'm Ivan Soprun. I position for AI Automation / Applied AI roles. The centerpiece of this portfolio is a local Ollama LLM benchmark harness — machine-checkable HOME tasks, a time-boxed unattended runner with GPU controls, semantic versus strict scoring, and a published night-run artifact set from a single RTX 3070 machine. Around that, I ship working applications in contractor estimating and engineering calculation, and I am careful about what I will and will not claim."
-    },
-    {
-      "id": "llm.cue.1",
-      "html_anchor": "talk",
-      "line": 362,
-      "project_slugs": [
-        "local-llm-benchmark"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_architecture"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Start at the runner scheduler and status precedence, tied to the night-run spec."
-    },
-    {
-      "id": "llm.cue.2",
-      "html_anchor": "talk",
-      "line": 363,
-      "project_slugs": [
-        "local-llm-benchmark"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_implemented_functions"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Walk one HOME validate path: extract SQL, execute it in SQLite, then compare rows. HOME-20 is the example."
-    },
-    {
-      "id": "llm.cue.3",
-      "html_anchor": "talk",
-      "line": 364,
-      "project_slugs": [
-        "local-llm-benchmark"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_metrics"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Open the night-run summary: HOME_WIN, HOME_TIE, HOME_LOSS, and confidence intervals. State the ~19% budget skips in the same breath."
-    },
-    {
-      "id": "llm.cue.4",
-      "html_anchor": "talk",
-      "line": 365,
-      "project_slugs": [
-        "local-llm-benchmark"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_implemented_functions"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Explain semantic versus strict scoring with a FORMAT_ERROR example."
-    },
-    {
-      "id": "llm.cue.5",
-      "html_anchor": "talk",
-      "line": 366,
-      "project_slugs": [
-        "local-llm-benchmark"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_testing_evidence"
-      ],
-      "sources": [],
-      "polarity": "caveat",
-      "denies": [],
-      "note": null,
-      "text": "The mock-Ollama pytest surface is 331 def test_ functions across 30 modules, observed statically. Presence is verified. A green run at this pin is not."
-    },
-    {
-      "id": "llm.cue.6",
-      "html_anchor": "talk",
-      "line": 367,
-      "project_slugs": [
-        "local-llm-benchmark"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_limitations"
-      ],
-      "sources": [],
-      "polarity": "limitation",
-      "denies": [],
-      "note": null,
-      "text": "Disclose the single machine, the single night, and the budget skips."
-    },
-    {
-      "id": "llm.cue.7",
-      "html_anchor": "talk",
-      "line": 368,
-      "project_slugs": [
-        "local-llm-benchmark"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_public_safe_facts"
-      ],
-      "sources": [],
-      "polarity": "constraint",
-      "denies": [
-        "Invented AI tool identity"
-      ],
-      "note": null,
-      "text": "If asked about process: the LLM build and audit were AI-assisted. Say so. Do not invent a tool identity for other projects."
-    },
-    {
-      "id": "talk.bridge.ac",
-      "html_anchor": "talk",
-      "line": 370,
-      "project_slugs": [
-        "bruno-ac-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "verified_purpose",
-        "verified_implemented_functions"
-      ],
-      "sources": [
-        "PORTFOLIO_NARRATIVE §3"
-      ],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Evaluation craft is half the story. The other half is whether I ship domain tools that refuse to lie. Bruno AC is an offline HVAC estimating PWA that fails closed on financials and will not invent tonnage from square footage."
-    },
-    {
-      "id": "ac.cue.1",
-      "html_anchor": "talk",
-      "line": 374,
-      "project_slugs": [
-        "bruno-ac-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_implemented_functions"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Fail-closed Method A and invalid sentinels — no NaN to $0."
-    },
-    {
-      "id": "ac.cue.2",
-      "html_anchor": "talk",
-      "line": 375,
-      "project_slugs": [
-        "bruno-ac-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_implemented_functions"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Dual-track catalog Apply lifecycle: Customer Price versus Your Cost."
-    },
-    {
-      "id": "ac.cue.3",
-      "html_anchor": "talk",
-      "line": 376,
-      "project_slugs": [
-        "bruno-ac-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_limitations"
-      ],
-      "sources": [],
-      "polarity": "limitation",
-      "denies": [],
-      "note": null,
-      "text": "Domain honesty: it refuses square-footage-to-tonnage, and commercial Apply stays blocked pending AHJ or design verification."
-    },
-    {
-      "id": "ac.cue.4",
-      "html_anchor": "talk",
-      "line": 377,
-      "project_slugs": [
-        "bruno-ac-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_implemented_functions"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Offline PWA, transactional full-app backup, and primary storage locks."
-    },
-    {
-      "id": "ac.cue.5",
-      "html_anchor": "talk",
-      "line": 378,
-      "project_slugs": [
-        "bruno-ac-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_limitations"
-      ],
-      "sources": [],
-      "polarity": "limitation",
-      "denies": [
-        "SW cache version docs already consistent (v4/v64/v31)"
-      ],
-      "note": null,
-      "text": "Volunteer the cache doc gap — README v4, sw.js v64, BRAND v31 — as hygiene to fix before public polish, not as polish."
-    },
-    {
-      "id": "talk.bridge.prop",
-      "html_anchor": "talk",
-      "line": 380,
-      "project_slugs": [
-        "propeller-calculator"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "verified_implemented_functions",
-        "verified_purpose"
-      ],
-      "sources": [
-        "PORTFOLIO_NARRATIVE §4"
-      ],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "The same honesty pattern shows up on the desktop: an offline propeller calculator that separates raw sources from interpolated results and flags extrapolation."
-    },
-    {
-      "id": "prop.cue.1",
-      "html_anchor": "talk",
-      "line": 384,
-      "project_slugs": [
-        "propeller-calculator"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_architecture"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Walk ETL, then provenance SQLite, then the physics solver, then bilingual Qt, then one-file packaging."
-    },
-    {
-      "id": "prop.cue.2",
-      "html_anchor": "talk",
-      "line": 385,
-      "project_slugs": [
-        "propeller-calculator"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_implemented_functions"
-      ],
-      "sources": [],
-      "polarity": "limitation",
-      "denies": [],
-      "note": null,
-      "text": "evidence_class and extrapolation flags. PARTIAL labels for water, Rm, and frame simplified paths."
-    },
-    {
-      "id": "prop.cue.3",
-      "html_anchor": "talk",
-      "line": 386,
-      "project_slugs": [
-        "propeller-calculator"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_implemented_functions"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Runtime hardening: backup and zip-slip checks, and an atomic AppData database install."
-    },
-    {
-      "id": "prop.cue.4",
-      "html_anchor": "talk",
-      "line": 387,
-      "project_slugs": [
-        "propeller-calculator"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_limitations"
-      ],
-      "sources": [],
-      "polarity": "limitation",
-      "denies": [],
-      "note": null,
-      "text": "Limitations to say out loud: unsigned EXE, no CI, dataset redistribution caution, and version drift between __version__ 3.0.0 and product framing 3.3.0."
-    },
-    {
-      "id": "prop.cue.5",
-      "html_anchor": "talk",
-      "line": 388,
-      "project_slugs": [
-        "propeller-calculator"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "do_not_claim",
-        "verified_public_safe_facts"
-      ],
-      "sources": [],
-      "polarity": "constraint",
-      "denies": [
-        "Invented AI tool identity"
-      ],
-      "note": null,
-      "text": "Do not invent an AI-tool identity for how this app was built."
-    },
-    {
-      "id": "talk.bridge.elec",
-      "html_anchor": "talk",
-      "line": 390,
-      "project_slugs": [
-        "bruno-electric-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "do_not_claim",
-        "verified_limitations"
-      ],
-      "sources": [
-        "PORTFOLIO_NARRATIVE §5"
-      ],
-      "polarity": "limitation",
-      "denies": [
-        "Works offline after first load"
-      ],
-      "note": null,
-      "text": "Bruno Electric is the other trade estimator. The story to volunteer is that offline was retired when correctness required it. I do not claim offline after first load."
-    },
-    {
-      "id": "elec.cue.1",
-      "html_anchor": "talk",
-      "line": 394,
-      "project_slugs": [
-        "bruno-electric-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_implemented_functions"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Fail-closed NEC-oriented engines with explicit unsupported or unresolved paths."
-    },
-    {
-      "id": "elec.cue.2",
-      "html_anchor": "talk",
-      "line": 395,
-      "project_slugs": [
-        "bruno-electric-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_implemented_functions"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Approved quote snapshot to an immutable fixed-price invoice basis."
-    },
-    {
-      "id": "elec.cue.3",
-      "html_anchor": "talk",
-      "line": 396,
-      "project_slugs": [
-        "bruno-electric-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_implemented_functions"
-      ],
-      "sources": [],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "Dispatch and call journal with materials, helper costing, and document preview."
-    },
-    {
-      "id": "elec.cue.4",
-      "html_anchor": "talk",
-      "line": 397,
-      "project_slugs": [
-        "bruno-electric-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "verified_limitations"
-      ],
-      "sources": [],
-      "polarity": "limitation",
-      "denies": [
-        "Works offline after first load"
-      ],
-      "note": null,
-      "text": "Lead with the offline retirement. Docs that still say offline are wrong. The service worker was retired rather than shipping a cache that lied. Offline after first load is not supported."
-    },
-    {
-      "id": "elec.cue.5",
-      "html_anchor": "talk",
-      "line": 398,
-      "project_slugs": [
-        "bruno-electric-pwa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "recommended_interview_talking_points",
-        "do_not_claim",
-        "verified_testing_evidence"
-      ],
-      "sources": [],
-      "polarity": "denial",
-      "denies": [
-        "800/800 or similar metrics from PR #15 / older audits"
-      ],
-      "note": null,
-      "text": "Cite suite presence, not unverified Playwright end-to-end counts and not capability-gate greens. Do not say an auditor re-verified 761/761. Do not cite 800/800."
-    },
-    {
-      "id": "talk.bridge.related",
-      "html_anchor": "talk",
-      "line": 400,
-      "project_slugs": [
-        "casino-game-analytics",
-        "drone-pilot-usa",
-        "uas-stage1-app"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "maturity_label"
-      ],
-      "sources": [
-        "PORTFOLIO_NARRATIVE §6"
-      ],
-      "polarity": "constraint",
-      "denies": [],
-      "note": null,
-      "text": "Three more projects stay mentions. That keeps the Applied AI Automation spine clear, and it keeps maturity honest."
-    },
-    {
-      "id": "talk.mention.casino",
-      "html_anchor": "talk",
-      "line": 404,
-      "project_slugs": [
-        "casino-game-analytics"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "verified_purpose"
-      ],
-      "sources": [
-        "PORTFOLIO_NARRATIVE §7"
-      ],
-      "polarity": "bounded",
-      "denies": [],
-      "note": null,
-      "text": "Casino: descriptive analytics on completed sessions only — no bets, payments, or predictive decisions. Offer the Qt walk only if they ask."
-    },
-    {
-      "id": "talk.mention.drone",
-      "html_anchor": "talk",
-      "line": 405,
-      "project_slugs": [
-        "drone-pilot-usa"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "verified_implemented_functions",
-        "do_not_claim"
-      ],
-      "sources": [
-        "PORTFOLIO_NARRATIVE §7"
-      ],
-      "polarity": "denial",
-      "denies": [],
-      "note": null,
-      "text": "Drone: TRUST and Part 107 study plus fleet logging. Regulatory stubs return UNAVAILABLE. Maps need a network. Not an official FAA exam."
-    },
-    {
-      "id": "talk.mention.uas",
-      "html_anchor": "talk",
-      "line": 406,
-      "project_slugs": [
-        "uas-stage1-app"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "maturity_label",
-        "verified_architecture",
-        "verified_limitations"
-      ],
-      "sources": [
-        "PORTFOLIO_NARRATIVE §7"
-      ],
-      "polarity": "constraint",
-      "denies": [],
-      "note": null,
-      "text": "UAS Stage-1: an early educational Android WebView. CI builds debug APKs from YAML-embedded sources. I would restructure to a checked-in app tree before calling it a product."
-    },
-    {
-      "id": "talk.close",
-      "html_anchor": "talk",
-      "line": 410,
-      "project_slugs": [
-        "local-llm-benchmark",
-        "bruno-ac-pwa",
-        "bruno-electric-pwa",
-        "propeller-calculator"
-      ],
-      "backing": "FINAL_PROJECT_FACTS",
-      "fact_lock_fields": [
-        "verified_purpose",
-        "verified_implemented_functions",
-        "verified_limitations"
-      ],
-      "sources": [
-        "PORTFOLIO_NARRATIVE §10"
-      ],
-      "polarity": "assertion",
-      "denies": [],
-      "note": null,
-      "text": "If you hire for Applied AI Automation, I want you to remember three things: I can walk an end-to-end local LLM eval system with honest budget limits; I ship domain tools that fail closed; and I would rather label a gap than invent a capability."
-    },
-    {
       "id": "faq.llm.leaderboard",
       "html_anchor": "faq",
-      "line": 423,
+      "line": 352,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -3273,7 +2588,7 @@
     {
       "id": "faq.llm.tests",
       "html_anchor": "faq",
-      "line": 427,
+      "line": 356,
       "project_slugs": [
         "local-llm-benchmark"
       ],
@@ -3293,7 +2608,7 @@
     {
       "id": "faq.elec.offline",
       "html_anchor": "faq",
-      "line": 431,
+      "line": 360,
       "project_slugs": [
         "bruno-electric-pwa"
       ],
@@ -3314,7 +2629,7 @@
     {
       "id": "faq.ac.docgap",
       "html_anchor": "faq",
-      "line": 435,
+      "line": 364,
       "project_slugs": [
         "bruno-ac-pwa"
       ],
@@ -3330,12 +2645,12 @@
         "SW cache version docs already consistent (v4/v64/v31)"
       ],
       "note": null,
-      "text": "The runtime cache name is bruno-ac-v64. Docs and BRAND still disagree: README v4, sw.js v64, BRAND v31. That is a hygiene gap I would fix before public polish, not a strength."
+      "text": "The runtime cache name is bruno-ac-v64. Docs and BRAND still disagree: README v4, sw.js v64, BRAND v31. That mismatch is a current limitation, not a strength."
     },
     {
       "id": "faq.bruno.demo",
       "html_anchor": "faq",
-      "line": 439,
+      "line": 368,
       "project_slugs": [
         "bruno-ac-pwa",
         "bruno-electric-pwa"
@@ -3355,7 +2670,7 @@
     {
       "id": "faq.prop.limits",
       "html_anchor": "faq",
-      "line": 443,
+      "line": 372,
       "project_slugs": [
         "propeller-calculator"
       ],
@@ -3376,7 +2691,7 @@
     {
       "id": "faq.casino",
       "html_anchor": "faq",
-      "line": 447,
+      "line": 376,
       "project_slugs": [
         "casino-game-analytics"
       ],
@@ -3404,7 +2719,7 @@
     {
       "id": "faq.drone",
       "html_anchor": "faq",
-      "line": 451,
+      "line": 380,
       "project_slugs": [
         "drone-pilot-usa"
       ],
@@ -3425,7 +2740,7 @@
     {
       "id": "faq.uas",
       "html_anchor": "faq",
-      "line": 455,
+      "line": 384,
       "project_slugs": [
         "uas-stage1-app"
       ],
@@ -3447,7 +2762,7 @@
     {
       "id": "faq.production",
       "html_anchor": "faq",
-      "line": 459,
+      "line": 388,
       "project_slugs": [
         "local-llm-benchmark",
         "uas-stage1-app",
@@ -3473,7 +2788,7 @@
     {
       "id": "faq.counts",
       "html_anchor": "faq",
-      "line": 463,
+      "line": 392,
       "project_slugs": [
         "casino-game-analytics",
         "bruno-electric-pwa",
@@ -3499,7 +2814,7 @@
     {
       "id": "faq.prs",
       "html_anchor": "faq",
-      "line": 467,
+      "line": 396,
       "project_slugs": [
         "local-llm-benchmark",
         "propeller-calculator",
@@ -3526,7 +2841,7 @@
     {
       "id": "contact.who",
       "html_anchor": "contact",
-      "line": 475,
+      "line": 404,
       "project_slugs": [],
       "backing": "PORTFOLIO_SELECTION",
       "fact_lock_fields": [],
@@ -3541,7 +2856,7 @@
     {
       "id": "contact.private",
       "html_anchor": "contact",
-      "line": 477,
+      "line": 406,
       "project_slugs": [
         "local-llm-benchmark",
         "bruno-ac-pwa",
@@ -3564,7 +2879,7 @@
     {
       "id": "contact.data",
       "html_anchor": "contact",
-      "line": 478,
+      "line": 407,
       "project_slugs": [
         "propeller-calculator",
         "casino-game-analytics"
@@ -3583,7 +2898,7 @@
     {
       "id": "contact.close",
       "html_anchor": "contact",
-      "line": 479,
+      "line": 408,
       "project_slugs": [
         "local-llm-benchmark",
         "bruno-ac-pwa",
@@ -3605,7 +2920,7 @@
     {
       "id": "footer.labels",
       "html_anchor": null,
-      "line": 486,
+      "line": 415,
       "project_slugs": [],
       "backing": "FINAL_PROJECT_FACTS",
       "fact_lock_fields": [
@@ -3716,7 +3031,6 @@
       "do_not_claim": "SW cache version docs already consistent (v4/v64/v31)",
       "status": "denied_on_page",
       "claim_ids": [
-        "ac.cue.5",
         "ac.limit.docgap",
         "faq.ac.docgap"
       ]
@@ -3779,10 +3093,8 @@
     {
       "project_slug": "propeller-calculator",
       "do_not_claim": "Invented AI tool identity",
-      "status": "denied_on_page",
-      "claim_ids": [
-        "prop.cue.5"
-      ]
+      "status": "not_asserted",
+      "claim_ids": []
     },
     {
       "project_slug": "propeller-calculator",
@@ -3798,10 +3110,8 @@
       "status": "denied_on_page",
       "claim_ids": [
         "craft.local.elec",
-        "elec.cue.4",
         "elec.offline",
-        "faq.elec.offline",
-        "talk.bridge.elec"
+        "faq.elec.offline"
       ]
     },
     {
@@ -3823,10 +3133,8 @@
     {
       "project_slug": "bruno-electric-pwa",
       "do_not_claim": "800/800 or similar metrics from PR #15 / older audits",
-      "status": "denied_on_page",
-      "claim_ids": [
-        "elec.cue.5"
-      ]
+      "status": "not_asserted",
+      "claim_ids": []
     },
     {
       "project_slug": "bruno-electric-pwa",

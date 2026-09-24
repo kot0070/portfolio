@@ -38,7 +38,7 @@ The project URL will look like `https://kot0070.github.io/portfolio/`.
 
 `public/claims-source.json` lists every public sentence and the fact-lock fields behind it (`verified_purpose`, `maturity_label`, `do_not_claim`, and the other locked fields).
 
-Presentation lines (order, “mention only”, interview role) are marked `backing: PORTFOLIO_SELECTION` and do not pretend to be metrics.
+Presentation lines (order, “mention only”) are marked `backing: PORTFOLIO_SELECTION` and do not pretend to be metrics.
 
 After editing copy in `index.html`:
 
